@@ -1,3 +1,9 @@
+import { GalleryHeader } from "../../components/gallery/GalleryHeader/GalleryHeader";
+
 export const Gallery = () => {
-  return <div>Gallery View</div>;
+  return (
+    <div>
+      <GalleryHeader />
+    </div>
+  );
 };

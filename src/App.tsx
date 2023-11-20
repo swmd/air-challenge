@@ -1,8 +1,9 @@
 import React from "react";
 import { MantineProvider, createTheme } from "@mantine/core";
 import { RouterProvider } from "react-router-dom";
-import "./App.css";
 import { authenticatedRouter } from "./routes/AuthenticatedRoutes";
+import "./App.css";
+import "@mantine/core/styles.css";
 
 const theme = createTheme({
   /** Put your mantine theme override here */
