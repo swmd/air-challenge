@@ -30,7 +30,7 @@ export const GalleryHeader = () => {
         </ActionIcon>
       </Flex>
 
-      <Flex gap={10}>
+      <Flex gap={10} align={"center"}>
         <ActionIcon variant="default" aria-label="Share">
           <IconShare3 />
         </ActionIcon>
